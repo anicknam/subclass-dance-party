@@ -3,8 +3,10 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  /*background-color:#444;*/
   font-size: 18px;
+  background-image: url("Assets/Ocean.png");
+  background-size: 100% 100%;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -13,6 +15,11 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+.lineUpButton{
+  padding:5px 12px;
+  float:right;
+}
+
 .topbar{
   height:32px;
   background-color: #555;
@@ -20,8 +27,43 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
-  border-radius:10px;
+.dancer {
   position:absolute;
+/*  height: 100px;
+  width: 120px;*/
 }
+
+.orange {
+  position:absolute;
+  height: 150px;
+  width: 180px;
+}
+
+.blue {
+  position:absolute;
+  height: 150px;
+  width: 180px;
+}
+
+.hook {
+  height: 150px;
+}
+
+.bubble {
+  height: 120px;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+
+
+
+
+
+
+
+
